@@ -3,14 +3,17 @@ print("hello welcome to starbucks")
 
 #name of the customer
 name = input("what is your name?\n")
-print("Hello " + name  +  " thank you for coming in")
+
 
 #using if to prevent something
 
 if name == "Ben":
-   evil_status = input("Are you evil\n")
-   print("you are not allowed")
+   print("you are not welcome")
    exit()
+else:
+   print("Hello " + name  +  " thank you for coming in")
+
+
 #menu of the coffee shop
 menu = "latte, african tea, ginger tea, espresso \n"
 
