@@ -8,8 +8,12 @@ name = input("what is your name?\n")
 #using if to prevent something
 
 if name == "Ben":
-   print("you are not welcome")
-   exit()
+   evil_status = input("are you evil??\n")
+   if evil_status == "yes":
+      print("you are not welcome")
+      exit()
+   else:
+    print("so you are one of the good Bens. welcome!")
 else:
    print("Hello " + name  +  " thank you for coming in")
 
